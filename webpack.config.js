@@ -12,10 +12,10 @@ module.exports = {
   entry: ["./src/index"],
 
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: ENV === "development" ? path.resolve(__dirname, "build") : path.resolve(__dirname),
     // the target directory for all output files
     // must be an absolute path (use the Node.js path module)
-    publicPath: "/",
+    publicPath: ENV === "development" ? "/build/" : "/",
     // the url to the output directory resolved relative to the HTML page
     filename: "bundle.js",
     // the filename template for entry chunks
