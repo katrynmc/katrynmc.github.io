@@ -15,7 +15,7 @@ module.exports = {
     path: path.resolve(__dirname, "build"),
     // the target directory for all output files
     // must be an absolute path (use the Node.js path module)
-    publicPath: "/build/",
+    publicPath: "/",
     // the url to the output directory resolved relative to the HTML page
     filename: "bundle.js",
     // the filename template for entry chunks
