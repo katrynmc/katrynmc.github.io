@@ -1,6 +1,7 @@
 {
   "name": "katryn_mcintosh",
   "version": "1.0.0",
+  "homepage": "https://katrynmc.github.io",
   "description": "A portfolio site of art and a front end development showpiece.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +9,9 @@
     "lint": "eslint --ext .ts --ext .tsx src/",
     "pretty": "prettier --write 'src{/**/*.ts,/**/*.tsx}'",
     "start-dev": "NODE_ENV=development webpack-dev-server --hot --mode development",
-    "start": "NODE_ENV=production node app.js"
+    "start": "NODE_ENV=production node app.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "react",
@@ -39,6 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "file-loader": "^4.2.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "react-hot-loader": "^4.12.14",
