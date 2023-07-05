@@ -8,12 +8,12 @@
 .name {
   color: var(--darkest-grey);
   font-family: var(--header-font);
-  font-size: 3.5rem;
+  font-size: var(--type-xx-large);
   letter-spacing: var(--sans-serif-letterspacing);
 }
 
 @media only screen and (min-width: 1024px) {
   .name {
-    font-size: 1.5rem;
+    font-size: var(--type-medium);
   }
 }
