@@ -1,46 +1,17 @@
 .portfolioSite {
   display: grid;
   grid-template-columns:
-    [col1] 1fr [col2] 140px [col3] 3fr
-    [col4] 1fr [col5] 1fr
-    [col6] 3fr [col7] 140px [col8] 1fr [col-end];
+    [col1] 1fr [col2] 5fr [col3] 1fr [col-end];
   grid-template-rows:
-    [row1] 45px
-    [row2] 30px
-    [row3] 1.5fr
-    [row4] 2fr
-    [row5] 120px
+    [row1] 1fr
+    [row2] 4fr
+    [row3] 1fr
     [row-end];
   height: 100%;
 }
 
-.paintingLeft {
-  display: none;
+.main {
+  grid-column-start: col2;
+  grid-row-start: row2;
 }
 
-.paintingRight {
-  display: none;
-}
-
-@media only screen and (min-width: 1024px) {
-  .paintingLeft {
-    display: inline;
-    grid-row-start: row1;
-    grid-row-end: row-end;
-    grid-column: col1;
-    filter: grayscale(100%);
-    overflow: hidden;
-    z-index: -1;
-  }
-
-  .paintingRight {
-    display: inline;
-    grid-row-start: row1;
-    grid-row-end: row-end;
-    grid-column: col8;
-    filter: grayscale(100%);
-    overflow: hidden;
-    transform: scaleX(-1);
-    z-index: -1;
-  }
-}

@@ -1,26 +1,8 @@
 .footer {
-  font-size: var(--type-x-small);
-  grid-row: row5;
+  grid-row: row3;
   grid-column-start: col2;
-  grid-column-end: col8;
-  padding-top: 20px;
-  text-align: center;
 }
 
 .email {
-  color: var(--darkest-grey);
-  font-family: var(--product-name-font);
-  letter-spacing: var(--sans-serif-letterspacing);
-}
-
-.email:hover {
-  color: var(--secondary-color-0);
-}
-
-.socialLinks {
-  color: var(--light-med-grey);
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-  padding: 0 60px;
+  font-family: var(--header-font);
 }
