@@ -4,7 +4,7 @@
   /* re-design vars */
   --grid-base: 10px;
   --body-font: "PT Serif";
-  --product-name-font: "Montserrat", sans-serif;
+  --header-font: "Montserrat", sans-serif;
   --sans-serif: "Montserrat", sans-serif;
   --serif: "PT Serif";
   --text-dark: #454759;
@@ -77,22 +77,8 @@ a {
 }
 
 li {
-  font-family: var(--product-name-font);
+  font-family: var(--header-font);
   font-size: var(--type-x-small);
-}
-
-.main-view {
-  margin: 0 auto;
-  width: 70%;
-}
-
-main {
-  grid-column-start: col2;
-  grid-column-end: col8;
-  grid-row-start: row3;
-  grid-row-end: row5;
-  padding: 0px 60px 40px;
-  position: relative;
 }
 
 @media only screen and (min-width: 1024px) {
