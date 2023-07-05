@@ -1,15 +1,9 @@
-.home {
+ .home {
   display: flex;
-  align-items: center;
   flex-direction: column;
   position: relative;
   height: 100%;
   justify-content: center;
-}
-
-.motivation {
-  position: absolute;
-  height: 100%;
 }
 
 .focusHeading {
@@ -17,91 +11,7 @@
   margin-bottom: 10%;
 }
 
-.venn {
-  display: grid;
-  grid-template-columns: [col0] 1fr [col1] 1fr [col3] 220px [col5] 1fr [end];
-  grid-template-rows: [row1] 1fr;
-  align-items: flex-end;
-  height: 100%;
-  padding: 60px 0;
-}
-
-.venn:nth-of-type(1) {
-  position: absolute;
-  left: -75px;
-}
-
-.summary {
-  text-align: center;
-  max-width: 600px;
-}
-
-.circleA {
-  filter: blur(2px);
-  grid-row: row1;
-  grid-column-start: col1;
-  grid-column-end: col5;
-  height: 100%;
-  width: 65%;
-  border-radius: 50%;
-  border: 5px solid rgba(3, 169, 244, 0.16);
-  position: relative;
-  left: 10px;
-}
-
-.circleA:nth-of-type(1) {
-  position: relative;
-  left: 10px;
-}
-
-.circleA:nth-of-type(2) {
-  position: relative;
-  left: 20px;
-}
-
-.circleA:nth-of-type(3) {
-  position: relative;
-  left: 30px;
-}
-
-.circleA:nth-of-type(4) {
-  position: relative;
-  left: -30px;
-}
-
-.circleA:nth-of-type(5) {
-  position: relative;
-  left: -20px;
-}
-
-.circleA:nth-of-type(6) {
-  position: relative;
-  left: -10px;
-}
-
-.circleB {
-  filter: blur(2px);
-  grid-row: row1;
-  grid-column-start: col0;
-  grid-column-end: col3;
-  height: 100%;
-  width: 60%;
-  border-radius: 50%;
-  border: 5px solid rgba(3, 169, 244, 0.16);
-}
-
-.circleC {
-  filter: blur(2px);
-  grid-row: row1;
-  grid-column-start: col0;
-  grid-column-end: col3;
-  height: 100%;
-  width: 60%;
-  border-radius: 50%;
-  border: 5px solid rgba(3, 169, 244, 0.16);
-}
-
 @media only screen and (min-width: 1024px) {
   .summary {
   }
-}
+} 

@@ -9,12 +9,12 @@
 
 .email {
   color: var(--darkest-grey);
-  font-family: var(--product-name-font);
+  font-family: var(--header-font);
   letter-spacing: var(--sans-serif-letterspacing);
 }
 
 .email:hover {
-  color: var(--secondary-color-0);
+  color: var(--primary-color-0);
 }
 
 .socialLinks {

@@ -1,48 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif&display=swap");
 
 :root {
-  /* re-design vars */
-  --grid-base: 10px;
-  --body-font: "PT Serif";
   --header-font: "Montserrat", sans-serif;
-  --sans-serif: "Montserrat", sans-serif;
   --serif: "PT Serif";
   --text-dark: #454759;
 
-  /* end re-design vars */
   --blue: #03a9f4;
   --darkest-grey: #363b41;
   --light-grey: #f9f9f9;
   --light-med-grey: #98a0ac;
-  --med-grey: #b3bbc7;
-  --transparent-white: rgba(255, 255, 255, 0.4);
-  --primary-color-0: var(--blue);
-  --secondary-color-0: var(--blue);
 
-  --serif-letterspacing: 1px;
+  --primary-color-0: var(--blue);
   --sans-serif-letterspacing: 2px;
 
-  --type-xx-small: 0.9em;
   --type-x-small: 1em;
   --type-small: 1.25em;
   --type-medium: 1.5em;
   --type-large: 2em;
   --type-x-large: 3em;
-  --type-xx-large: 4.3em;
-
-  --tiny-space: 5px;
-  --small-space: 25px;
-  --medium-space: 30px;
-  --large-space: 50px;
-  --xlarge-space: 90px;
-
-  --margin-left: var(--medium-space);
-  --margin-right: var(--medium-space);
-
-  --main-content-margin-right: var(--medium-space);
-  --main-content-margin-top: var(--small-space);
-
-  --sidebar-width: 30%;
 }
 
 html,
@@ -55,7 +30,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--sans-serif);
+  font-family: var(--header-font);
 }
 
 body {
