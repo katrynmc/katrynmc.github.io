@@ -40,7 +40,10 @@ module.exports = {
       },
       {
         test: /\.(png|jpg)$/,
-        loader: "file-loader?name=img/img-[hash:6].[ext]",
+        loader: "file-loader",
+        options: {
+          name : 'img/img-[hash:6].[ext]'
+      }
       },
       {
         test: /\.css$/,
