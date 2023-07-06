@@ -1,6 +1,6 @@
 import React from "react";
 import { hot } from "react-hot-loader";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { ROUTES } from "helpers/routes";
 
@@ -17,14 +17,10 @@ function App(): React.ReactElement {
       <Router>
         <Header />
         <main className={styles.main}>
-          <Switch>
-            <Route path={ROUTES.background}>
-              <Background />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path={ROUTES.background} element={<Background />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
         </main>
       </Router>
       <Footer />
