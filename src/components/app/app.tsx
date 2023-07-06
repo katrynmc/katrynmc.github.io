@@ -17,7 +17,7 @@ function App(): React.ReactElement {
       <Router>
         <Header />
         <main className={styles.main}>
-          <Switch>     
+          <Switch>
             <Route path={ROUTES.background}>
               <Background />
             </Route>

@@ -5,7 +5,9 @@ import styles from "./home-styles.css";
 function Home(): React.ReactElement {
   return (
     <div className={styles.home}>
-      <h1 className={styles.focusHeading}>Software Engineering and Technical Leadership</h1>
+      <h1 className={styles.focusHeading}>
+        Software Engineering and Technical Leadership
+      </h1>
 
       <p className={styles.summary}>
         I&apos;m passionate about building inspiring and maintainable

@@ -3,4 +3,3 @@ declare const styles: {
   readonly "focus-panel": string;
 };
 export = styles;
-

@@ -1,5 +1,4 @@
 declare const styles: {
-  readonly "pointer": string;
+  readonly pointer: string;
 };
 export = styles;
-
