@@ -2,12 +2,12 @@ import React from "react";
 import { hot } from "react-hot-loader";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { ROUTES } from "helpers/routes";
+import { ROUTES } from "app/helpers/routes";
 
-import Home from "components/section/home/home";
-import Footer from "components/page/footer/footer";
-import Background from "components/section/background/background";
-import Header from "components/page/header/header";
+import Home from "app/components/section/home/home";
+import Footer from "app/components/page/footer/footer";
+import Experience from "app/components/section/experience/experience";
+import Header from "app/components/page/header/header";
 
 import styles from "./app-styles.css";
 

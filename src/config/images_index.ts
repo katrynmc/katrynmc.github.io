@@ -1,13 +1,13 @@
-import CATS from "src/config/portfolio_data/cats";
-import CIRCUITS from "src/config/portfolio_data/circuits";
-import EYES from "src/config/portfolio_data/eyes";
-import HUPPAH from "src/config/portfolio_data/huppah";
-import KNIT_GRID from "src/config/portfolio_data/knit_grid";
-import KNIT_PARADE from "src/config/portfolio_data/knit_parade";
-import LANDSCAPE from "src/config/portfolio_data/landscape";
-import PARADE from "src/config/portfolio_data/parade";
-import PLEATS_STUDY from "src/config/portfolio_data/pleats_study";
-import SKETCHBOOK from "src/config/portfolio_data/sketchbook";
+import CATS from "app/config/portfolio_data/cats";
+import CIRCUITS from "app/config/portfolio_data/circuits";
+import EYES from "app/config/portfolio_data/eyes";
+import HUPPAH from "app/config/portfolio_data/huppah";
+import KNIT_GRID from "app/config/portfolio_data/knit_grid";
+import KNIT_PARADE from "app/config/portfolio_data/knit_parade";
+import LANDSCAPE from "app/config/portfolio_data/landscape";
+import PARADE from "app/config/portfolio_data/parade";
+import PLEATS_STUDY from "app/config/portfolio_data/pleats_study";
+import SKETCHBOOK from "app/config/portfolio_data/sketchbook";
 
 export interface PortfolioEntry {
   additionalImages: string[];
@@ -35,12 +35,12 @@ const PORTFOLIO: PortfolioEntry[] = [
   LANDSCAPE,
   {
     additionalImages: [],
-    blurredIndex: require("Images/portfolio_index/knitpaint.png"),
+    blurredIndex: require("app/assets/images/portfolio_index/knitpaint.png"),
     categories: ["PAINTING", "2D"],
     description: "",
     indexAltText: "Detail of Knit Paint, Oil Painting",
-    inFocusIndex: require("Images/portfolio_index/knitpaint_focus.png"),
-    largeAsset: require("Images/show/knitpaint.png"),
+    inFocusIndex: require("app/assets/images/portfolio_index/knitpaint_focus.png"),
+    largeAsset: require("app/assets/images/show/knitpaint.png"),
     medium: "Oil paint on panel",
     size: "3ft x 5ft",
     slug: "knit-paint",
@@ -50,12 +50,12 @@ const PORTFOLIO: PortfolioEntry[] = [
   },
   {
     additionalImages: [],
-    blurredIndex: require("Images/portfolio_index/drawer1.png"),
+    blurredIndex: require("app/assets/images/portfolio_index/drawer1.png"),
     categories: ["PAINTING", "2D"],
     description: "",
     indexAltText: "Detail of Found Object Still Life, Guoache",
-    inFocusIndex: require("Images/portfolio_index/drawer1_focus.png"),
-    largeAsset: require("Images/show/drawer1.png"),
+    inFocusIndex: require("app/assets/images/portfolio_index/drawer1_focus.png"),
+    largeAsset: require("app/assets/images/show/drawer1.png"),
     medium: "Guoache on paper",
     size: "8in x 10in",
     slug: "drawer-1",
@@ -65,12 +65,12 @@ const PORTFOLIO: PortfolioEntry[] = [
   },
   {
     additionalImages: [],
-    blurredIndex: require("Images/portfolio_index/screenprint.png"),
+    blurredIndex: require("app/assets/images/portfolio_index/screenprint.png"),
     categories: ["SCREENPRINTING", "2D"],
     description: "",
     indexAltText: "Detail of Scene from The Woods, Screenprint",
-    inFocusIndex: require("Images/portfolio_index/screenprint_focus.png"),
-    largeAsset: require("Images/show/screenprint.png"),
+    inFocusIndex: require("app/assets/images/portfolio_index/screenprint_focus.png"),
+    largeAsset: require("app/assets/images/show/screenprint.png"),
     medium: "Screenprint, gold ink on paper",
     size: "22in x 30in",
     slug: "screenprint",
@@ -80,12 +80,12 @@ const PORTFOLIO: PortfolioEntry[] = [
   },
   {
     additionalImages: [],
-    blurredIndex: require("Images/portfolio_index/brainmoth.png"),
+    blurredIndex: require("app/assets/images/portfolio_index/brainmoth.png"),
     categories: ["DIGITAL REPEAT", "2D"],
     description: "",
     indexAltText: "Detail of Abstract Brain-like Pattern, Digital Repeat",
-    inFocusIndex: require("Images/portfolio_index/brainmoth_focus.png"),
-    largeAsset: require("Images/show/brainmoth.png"),
+    inFocusIndex: require("app/assets/images/portfolio_index/brainmoth_focus.png"),
+    largeAsset: require("app/assets/images/show/brainmoth.png"),
     medium: "",
     size: "",
     slug: "brain-moth",
@@ -110,13 +110,13 @@ const PORTFOLIO: PortfolioEntry[] = [
   // },
   {
     additionalImages: [],
-    blurredIndex: require("Images/portfolio_index/skull.png"),
+    blurredIndex: require("app/assets/images/portfolio_index/skull.png"),
     categories: ["INSTALLATION", "3D"],
     description: "",
     indexAltText:
       "Detail of Balloon Skull Installation, Mixed Media Installation",
-    inFocusIndex: require("Images/portfolio_index/skull_focus.png"),
-    largeAsset: require("Images/show/skull.jpg"),
+    inFocusIndex: require("app/assets/images/portfolio_index/skull_focus.png"),
+    largeAsset: require("app/assets/images/show/skull.jpg"),
     medium: "Balloons, mixed media",
     size: "12ft x 12ft",
     slug: "skull",

@@ -1,13 +1,13 @@
-import { PortfolioEntry } from "src/config/images_index";
+import { PortfolioEntry } from "app/config/images_index";
 
 const LANDSCAPE: PortfolioEntry = {
   additionalImages: [],
-  blurredIndex: require("Images/portfolio_index/landscape.png"),
+  blurredIndex: require("app/assets/images/portfolio_index/landscape.png"),
   categories: ["MACHINE KNIT", "TEXTILES"],
   description: "",
   indexAltText: "Detail of Landscape, Machine Knit",
-  inFocusIndex: require("Images/portfolio_index/landscape_focus.png"),
-  largeAsset: require("Images/show/landscape.png"),
+  inFocusIndex: require("app/assets/images/portfolio_index/landscape_focus.png"),
+  largeAsset: require("app/assets/images/show/landscape.png"),
   medium: "Machine Knit panel",
   size: "2.5ft x 6ft",
   slug: "landscape",

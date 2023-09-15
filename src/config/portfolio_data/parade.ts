@@ -1,13 +1,13 @@
-import { PortfolioEntry } from "src/config/images_index";
+import { PortfolioEntry } from "app/config/images_index";
 
 const PARADE: PortfolioEntry = {
   additionalImages: [],
-  blurredIndex: require("Images/portfolio_index/parade.png"),
+  blurredIndex: require("app/assets/images/portfolio_index/parade.png"),
   categories: ["DIGITAL REPEAT", "2D"],
   description: "",
   indexAltText: "Detail of Parade, Digital Repeat",
-  inFocusIndex: require("Images/portfolio_index/parade_focus.png"),
-  largeAsset: require("Images/show/parade.png"),
+  inFocusIndex: require("app/assets/images/portfolio_index/parade_focus.png"),
+  largeAsset: require("app/assets/images/show/parade.png"),
   medium: "Digital Repeat, Illustrator / U4ia",
   size: "Dimensions variable",
   slug: "parade",

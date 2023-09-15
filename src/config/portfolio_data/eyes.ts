@@ -1,13 +1,13 @@
-import { PortfolioEntry } from "src/config/images_index";
+import { PortfolioEntry } from "app/config/images_index";
 
 const EYES: PortfolioEntry = {
   additionalImages: [],
-  blurredIndex: require("Images/portfolio_index/eyes.png"),
+  blurredIndex: require("app/assets/images/portfolio_index/eyes.png"),
   categories: ["DIGITAL REPEAT", "2D"],
   description: "",
   indexAltText: "Detail of Eyes, Digital Repeat",
-  inFocusIndex: require("Images/portfolio_index/eyes_focus.png"),
-  largeAsset: require("Images/show/eyes.png"),
+  inFocusIndex: require("app/assets/images/portfolio_index/eyes_focus.png"),
+  largeAsset: require("app/assets/images/show/eyes.png"),
   medium: "Adobe Illustrator / U4ia",
   size: "Dimensions variable",
   slug: "eyes",

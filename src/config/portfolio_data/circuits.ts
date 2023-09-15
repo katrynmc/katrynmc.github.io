@@ -1,13 +1,13 @@
-import { PortfolioEntry } from "src/config/images_index";
+import { PortfolioEntry } from "app/config/images_index";
 
 const CIRCUITS: PortfolioEntry = {
   additionalImages: [],
-  blurredIndex: require("Images/portfolio_index/circuits.png"),
+  blurredIndex: require("app/assets/images/portfolio_index/circuits.png"),
   categories: ["MACHINE KNIT", "TEXTILES"],
   description: "",
   indexAltText: "Detail of Circuits Machine Knit",
-  inFocusIndex: require("Images/portfolio_index/circuits_focus.png"),
-  largeAsset: require("Images/show/circuits.png"),
+  inFocusIndex: require("app/assets/images/portfolio_index/circuits_focus.png"),
+  largeAsset: require("app/assets/images/show/circuits.png"),
   medium: "Machine knit",
   size: "8in x 8in",
   slug: "circuits",
