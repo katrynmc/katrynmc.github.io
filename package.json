@@ -9,7 +9,6 @@
     "pretty": "prettier --write 'src{/**/*.ts,/**/*.tsx}'",
     "dev": "vite",
     "preview": "vite preview",
-    "start": "NODE_ENV=production node app.js",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
