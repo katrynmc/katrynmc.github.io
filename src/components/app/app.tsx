@@ -17,7 +17,7 @@ function App(): React.ReactElement {
         <Header />
         <main className={styles.main}>
           <Routes>
-            <Route path={ROUTES.background} element={<Background />} />
+            <Route path={ROUTES.experience} element={<Experience/>} />
             <Route path="/" element={<Home />} />
           </Routes>
         </main>

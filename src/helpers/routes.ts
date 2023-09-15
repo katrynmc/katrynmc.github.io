@@ -1,7 +1,7 @@
 const ROUTES = {
   home: "/",
   projects: "/projects",
-  background: "/background",
+  experience: "/experience",
 };
 
 export { ROUTES };
