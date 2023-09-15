@@ -2,3 +2,5 @@
 .eslintcache
 .vscode
 .DS_store
+build
+dist
