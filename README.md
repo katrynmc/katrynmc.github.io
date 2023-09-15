@@ -1,10 +1,10 @@
 ## Github Pages
 This repository contains two relevant branches:
-- master - the source code of the React app
+- main - the source code of the React app
 - gh-pages - the React app built from that source code
 
 To deploy a new version of the site:
-`yarn deploy` from the master branch
+`yarn deploy` from the main branch
 
 If the `CNAME` file is not present add it manually. See the example in `public/CNAME`
 
