@@ -3,20 +3,19 @@
   "version": "1.0.0",
   "homepage": "https://katrynmc.github.io",
   "description": "A portfolio site of art and a front end development showpiece.",
-  "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --config webpack.config.js",
-    "lint": "eslint --ext .ts --ext .tsx src/",
+    "build": "tsc && vite build",
+    "lint": "eslint --ext .ts,tsx",
     "pretty": "prettier --write 'src{/**/*.ts,/**/*.tsx}'",
-    "start-dev": "NODE_ENV=development webpack-dev-server --hot --mode development",
+    "dev": "vite",
+    "preview": "vite preview",
     "start": "NODE_ENV=production node app.js",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
-    "design",
-    "webpack"
+    "design"
   ],
   "author": "Katryn McIntosh",
   "license": "ISC",
@@ -26,29 +25,20 @@
     "react-router-dom": "^6.14.1"
   },
   "devDependencies": {
+    "@types/node": "^20.6.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-    "@types/react-router": "^5.1.20",
-    "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
     "@typescript-eslint/parser": "^2.6.0",
-    "css-loader": "^3.2.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
-    "file-loader": "^4.2.0",
     "gh-pages": "^5.0.0",
     "prettier": "^3.0.0",
-    "react-hot-loader": "^4.13.1",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^1.0.0",
-    "ts-loader": "^6.2.0",
     "typescript": "^5.1.6",
-    "url-loader": "^2.2.0",
-    "webpack": "^5.88.1",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
+    "vite": "^4.4.9"
   },
   "volta": {
     "node": "18.16.1",

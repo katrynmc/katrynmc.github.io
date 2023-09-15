@@ -1,5 +1,4 @@
 import React from "react";
-import { hot } from "react-hot-loader";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { ROUTES } from "app/helpers/routes";
@@ -9,7 +8,7 @@ import Footer from "app/components/page/footer/footer";
 import Experience from "app/components/section/experience/experience";
 import Header from "app/components/page/header/header";
 
-import styles from "./app-styles.css";
+import styles from "./app-styles.module.css";
 
 function App(): React.ReactElement {
   return (
@@ -28,4 +27,4 @@ function App(): React.ReactElement {
   );
 }
 
-export default hot(module)(App);
+export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./header-styles.css";
+import styles from "./header-styles.module.css";
 
 function Header(): React.ReactElement {
   return (

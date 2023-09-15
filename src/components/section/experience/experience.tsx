@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../section-styles.css";
+import styles from "../section-styles.module.css";
 
 function BackgroundSection(): React.ReactElement {
   return (

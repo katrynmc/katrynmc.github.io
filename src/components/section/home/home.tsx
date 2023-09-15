@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./home-styles.css";
+import styles from "./home-styles.module.css";
 
 function Home(): React.ReactElement {
   return (
